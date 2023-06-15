@@ -1,0 +1,133 @@
+body{
+    background: #F3F5FC;
+    width: 1440px;
+    height: 1024px;
+    top: 622px;
+    left: -2277px;
+    margin:0;
+}
+header{
+
+    float: left;
+}
+.logo{
+    margin: 40px 0 0 40px;
+}
+main{
+    width: 688px;
+    height: 936px;
+    float: left;
+    margin: 168px 0 0 80px;
+}
+.area-texto{
+    resize: none;
+    border: none;
+    width: 688px;
+    height: 683px;
+    color:#0A3871;
+    font-size: 32px;
+    background: none;
+    font-family: 'Inter', sans-serif;
+}
+
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+
+}
+.botones{
+    width: 680px;
+    height: 67px;
+    margin: 10px 0 0 0;
+}
+.boton{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 16px;
+    
+}
+.boton:nth-child(1){
+    border-color: #0A3871;
+    background: #0A3871;
+    color: white;
+    margin:0 10px 0 0;
+    border: 1px solid;
+}
+
+
+.boton:nth-child(2){
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+}
+
+.boton:hover{
+    border: 10px;
+}
+#mostrarContenido{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    color: #495057;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+}
+.rectangulo{
+    width: 400px;
+    height: 944px;
+    background: white;
+    float: right;
+    margin: 40px 40px 40px 40px;
+    border-radius: 32px;
+}
+.muñeco{
+    margin: 243px 32px 0 32px;
+}
+.rec1{
+    margin: 32px 32px 243px 32px
+}
+.rec1 > .rec:nth-child(1){
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 120%;
+    color: #343A40;
+    font-family: 'Inter', sans-serif;
+}
+.rec1 > .rec:nth-child(2){
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    text-align: center;
+    line-height: 150%;
+    color: #495057;
+    font-family: 'Inter', sans-serif;
+}
+
+.texto-c{
+    font-size: 24px;
+    font-weight: 120%;
+    
+
+}
+
+.copiar{
+    width: 336px;
+    height: 67px;
+    left: 1032px;
+    top: 885px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    position: absolute;
+    bottom: 0;
+ }
+.copiar:hover{
+    border: 10px
+}
